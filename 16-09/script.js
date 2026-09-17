@@ -71,15 +71,16 @@
 //     console.log("NÃO pode dirigir");
 // }
 
-let idade = 16;
+//let idade = 16;
+//
+//// if (idade >= 18)
+//if (idade > 17) {
+//    console.log("Maior de idade!");
+//    
+//} else {
+//    console.log("Menor de idade");
+//}
 
-// if (idade >= 18)
-if (idade > 17) {
-    console.log("Maior de idade!");
-    
-} else {
-    console.log("Menor de idade");
-}
 //Ex 1
 //Crie um sistema que compare o valor de uma variavel
 //senha SE for igual a 1234 escreva no console 
@@ -96,4 +97,12 @@ if (idade > 17) {
 //desconto de 20 e mostre o valor total da compra 
 //com desconto SE NAO mostre a mensagem 
 // COMPRA SEM DESCONTO
+let valor = 750;
+let valorDesconto = valor - 20;
 
+if(valor > 500){
+    console.log("Valor total com desconto " + valorDesconto);
+}
+else{
+    console.log("Compra sem desconto");
+}
